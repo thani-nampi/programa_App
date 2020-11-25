@@ -1,1 +1,35 @@
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F5s4uXroNU79T0bV4s8jN6S%2FTHANI-NAMPI%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+<!-- Inicio -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/inicio"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:clipToOutline="true"
+android:background="@drawable/inicio"
+ />
+
+
+<!-- drawable/inicio.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="360dp"
+android:height="640dp"
+android:viewportWidth="360"
+android:viewportHeight="640"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H360V640H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V640H360V0"
+android:fillColor="#FFFFFF"
+/>
+
+</group>
+
+</vector>
